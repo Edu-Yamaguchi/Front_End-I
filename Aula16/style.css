@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+.topsection{
+    background-color: #1CD1B0;
+    height: 23px;
+}
+.topsection p{
+    margin-left: 24px;
+    font-size: 15px;
+    position: absolute;
+    left: 27px;
+    top: 2px;
+}
+.mainheader{
+    background-color: #00669F;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.mainheader h1{
+    color: white;
+}
+.mainheader img{
+    width: 100px;
+    height: 70px;
+    margin-left: 24px;
+}
+.mainform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.mainform h1{
+    font-size: 72px;
+}
+.mainform input{
+    display: flex;
+    height: 60px;
+    width: 620px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
+}
+.mainform label{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 55px;
+}
+.mainform button{
+    width: 615.25px;
+    height: 53.79px;
+    margin-top: 59px;
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    transition: color .3s ease-out;
+}
+.mainform button:hover{
+    color: white;
+    transform: scale(1.05);
+}
+.mainform p{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.mainform a{
+    text-decoration: none;
+    color: #1CD1B0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #00669F;
+    width: 100%;
+    height: 61px;
+}
