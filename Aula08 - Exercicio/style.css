@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    background-color: #131313;
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+h2{
+    color:steelblue;
+    margin-top: 20px;
+}
+p{
+    color: #bdbdbd;
+    margin-bottom: 20px;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+.media-picture{
+    height: 600px;
+    background-image: url(https://claudia.abril.com.br/wp-content/uploads/2020/01/avengers-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.review-score{
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+    border-radius: 5px;
+}

@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100px;
+    background-color: #F0A83E;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.namecontainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.namecontainer span {
+    color: #3C2313;
+    margin-right: 2px;
+}
+
+.namecontainer h1 {
+    color: #FFFF;
+}
+
+.namecontainer h1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.container .containerul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 50px;
+}
+
+.container .containerul a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFF;
+}
+
+#patinha {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: #3C2313;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+
+
+.first-section {
+
+    background-image: url('https://s3-alpha-sig.figma.com/img/53ec/2946/b101b9298925dcc2ae1d629537e66036?Expires=1656288000&Signature=Ce9Qtrco9bL0JY7aV8GDyOZYCN5LAbncPWLbw5Ry81NWgJ2J323ENxQ15sbOlp0RYZBbIRnUh6WJR26CU3wOWTElubL~o2rKJs5Y~McV2b2fcrxwF8w7JTjp5HvuIhmqUZoz-H-WMiUq1goHU30pScYEsrNP0mD9TymStxDH~eSItzw4I1JFcXABbNjrQaHLZKec5D5MDijCKFcJ6~0Vu~m8m9ERvt9HXnrlJ5JOo-vOvqUUGlo5c98LxRG8hAELJA-rhhsH8F22kU6yXF76IxZU4-QhDYaJ3G7FZkmjKJ0dv6~ngEM3JHSoRwtRKqYIgw~Qn9SbMWQuodI4PPn3CQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    background-position: left;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.first-section div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.first-section div h1 {
+
+    color: #3C2313;
+    font-size: 50px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.first-section div p {
+    color: #3C2313;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #F0A83E;
+    margin: 15px;
+    padding: 15px;
+    border-style: none;
+    width: 141px;
+    height: 49px;
+    border: #F0A83E;
+    font-weight: bold;
+    border-radius: 30px;
+
+}
+
+.botao:hover {
+    transform: scale(1.10);
+    color: #FFFFFF;
+}
+
+.main-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.patinhalaranja {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.main-produtos h1 {
+
+    display: flex;
+    justify-content: center;
+    color: #3C2313;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 15px;
+}
+
+.main-produtos h2 {
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    margin-top: 30px;
+}
+
+
+.petisco-div {
+
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+    
+}
+
+.petisco-div img {
+    width: 400px;
+}
+
+#churras {
+    text-align: center;
+    color: #3C2313;
+    background-color: #F0A83E;
+    align-items: center;
+}
+
+#comer {
+    text-align: center;
+    color: #3C2313;
+    background-color: #F0A83E;
+    align-items: center;
+}
+
+#petisco {
+    text-align: center;
+    color: #3C2313;
+    background-color: #F0A83E;
+    align-items: center;
+
+}
+
+.petisco-div span {
+    color: #3C2313;
+}
+
+.Contato {
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 50px;
+}
+
+
+.Contato input{
+    background-color: #3C2313;
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+}
+.ContatoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+}
+.ContatoDiv input{
+    margin: 10px;
+}
+
+.ContatoDiv h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #3C2313;
+}
+
+.input-title {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.input-title button {
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    background-color: #F0A83E;
+    border-style: none;
+    border-radius: 30px;
+}
+
+.input-title button:hover {
+    background-color: #666666;
+    transform: scale(1.05);
+}
+.FooterSection{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterSection div{
+    margin: 0px 32px;
+}
+.FooterSection p{
+    color: white;
+}
+.FooterSection img{
+    width: 50px;
+}
+.FooterSection .Email {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.FooterSection .input{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.FooterSection input{
+    height: 40px;
+    width: 271px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+.FooterSection button{
+    background-color: #3C2313;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+}
+.FooterSection button:hover{
+    background-color: #666666;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #3C2313;
+    height: 100%;
+}
+
+.rodape1 {
+    flex-direction: column;
+    display: flex;
+
+}
+
+footer .rodape:nth-child(1) {
+    height: 100px;
+
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+}
+
+.rodape ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+.rodape ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+
+

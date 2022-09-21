@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300;400&display=swap%27');
+
+* {
+    box-sizing: none;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 20);
+    height: 80px;
+    align-items: center;
+}
+header h1{
+    display: inline;
+    font-size: 30px;
+}
+.digital{
+    color: #ffffff;
+}
+.MainH1{
+    display: inline;
+}
+
+.divmain {
+    justify-content: flex-end;
+    display: block;
+    color: aqua;
+    margin-right: 100px;
+}
+
+header ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #ECECEC;
+}
+
+a:hover {
+    background-color: rgba(0, 255, 255, 0.37);
+    border-radius: 10px;
+}
+.sectionimg {
+   background-image: url("https://i.pinimg.com/originals/c9/03/70/c90370d1b0be99b2b00058983564f4cc.jpg");
+   height: 100vh;
+}
+
+.first-section {
+
+    background-image: url("https://conceitos.com/wp-content/uploads/tecnologia/Programacao.jpg%27");
+    background-position: left;
+    background-size: cover;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 60px;
+}
+
+.first-section div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-section div h1 {
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.first-section p {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.first-section button {
+    height: 80px;
+    width: 300px;
+    font-size: 50px;
+    background-color: grey;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: color .5s ease-out;}
+
+button:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    color: aqua;
+}
+footer .rodape:nth-child(1) {
+    width: 400px;
+}
+  
+.rodape ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+.rodape ul li a {
+    color: #352b2b;
+    text-decoration: none;
+}
+  

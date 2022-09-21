@@ -67,7 +67,7 @@
     font-weight: 700;
     transition: color .3s ease-out;
 }
-.mainform button:hover{
+.mainform button:hover {
     color: white;
     transform: scale(1.05);
 }

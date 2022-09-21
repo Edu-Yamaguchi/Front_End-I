@@ -1,0 +1,16 @@
+.planos{
+    background-color: aquamarine;
+}
+table{
+    width: 100%;
+    max-width: 1000px;
+}
+table th{
+    background-color: grey;
+}
+table td{
+    background-color: black;
+}
+table tr:nth-child(odd){
+    background-color: black;
+}

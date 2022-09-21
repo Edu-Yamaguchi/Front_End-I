@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F3F3F3;
+}
+h2{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 40px;
+}
+.main-header{
+    position: fixed;
+    background-color: #222222;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+}
+.nav-div img{
+    transition: .2s ease-in-out;
+}
+.nav-div img:hover{
+    transform: scale(1.2);
+}
+.header-nav ul{
+    display: flex;
+    gap: 12px;
+    padding: 42px;
+}
+.header-nav ul a{
+    color: #F3F3F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    transition: .2s ease-in-out;
+}
+.header-nav ul a:hover{
+    color: #D01418;
+}
+.main-section{
+    background-image: url(./images/Bg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.main-section h1{
+    color: #F3F3F3;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.main-section h1 span{
+    color: #D01418;
+}
+.main-section button{
+    background-color: #D01418;
+    color: #F3F3F3;
+    width: 220px;
+    height: 61px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    transition: .2s ease-in-out;
+}
+.main-section button:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+/* Primeira Section */
+.flex-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 265px;
+    height: 322px;
+    gap: 24px;
+    background-color: #ffffff;
+}
+.cards-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 265px;
+    padding-top: 10px;
+    border-top: ridge;
+}
+.flex-main div p{
+    margin: 2px 20px;
+}
+.preço{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.parcela{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
+.envio{
+    color: #619D00;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+/* Segunda seção */
+.Cadeira{
+    background-image: url(./images/banner_1_cadeiras_gamer.png);
+    width: 361px;
+    height: 135px;
+    border-radius: 5px;
+}
+.Computador{
+    background-image: url(./images/banner_1_Computadores.png);
+    width: 361px;
+    height: 135px;
+    border-radius: 5px;
+}
+.secondflex-main{
+    display: flex;
+    justify-content: center;
+    gap: 114px;
+    margin-top: 27px;
+}
+.secondflex-main p{
+    height: 135px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+/* Footer */
+.main-footer{
+    margin-top: 85px ;
+    width: 100%;
+    height: 216px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+}
+.footer-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+.footer-li ul{ 
+    display: flex;
+    gap: 42px;
+    margin-top: 20px;
+}
+.footer-li ul li{
+    transition: .5s ease-in-out;
+}
+.footer-li ul li:hover{
+    transform: scale(1.2);
+}
+.rodape{
+    background-color: #c4c4c4;
+    text-align: center;
+    padding: 5px;
+}
+.material-symbols-outlined{
+    display: none;
+    color: white;
+    font-size: 50px;
+}
+
+@media (max-width: 412px){
+    .material-symbols-outlined{
+        display: block;
+    }
+    .nav-div{
+        display: none;
+    }
+
+    .main-section h1{
+        padding: 24px;
+        text-align: center;
+    }
+    .secondflex-main{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .main-footer{
+        flex-direction: column;
+        gap: 12px;
+        padding: 30px;
+    }
+
+}

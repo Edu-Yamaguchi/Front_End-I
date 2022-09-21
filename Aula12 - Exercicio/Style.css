@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300;400&display=swap%27');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: none;
+   outline: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.MainSection{
+    background-image: url(https://img.freepik.com/free-photo/bowl-pet-daities-green-background_23-2147799968.jpg?t=st=1654282289~exp=1654282889~hmac=c03a3a7efb39f23669ecd1c84c34a5f1e75c734387e4c33ea8303f8c8a2ca3ab);
+    background-position: left;
+    background-size: cover;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.MainSection div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MainSection div h1{
+    color: #3C2313;
+    font-size: 40px;
+    background-color: white;
+    border-radius:10px ;
+    padding: 20px;
+    margin: 10px;
+}
+.MainSection p{
+    color:#3C2313;
+    font-weight: bold;
+    font-size: 24px;
+}
+.MainSection button{
+    background-color: #F0A83E;
+    color: white;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: color .5s ease-out;
+}
+button:hover{
+    transform: scale(1.05);
+    color: black;
+}
+input{
+    background-color: #3C2313;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.ContatoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ContatoDiv input{
+    margin: 10px;
+}

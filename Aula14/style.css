@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+    background-color: #202020;
+}
+.main-content{
+    height: 500px;
+}
+.main-content .home{
+    height: 100vh;
+}
+.main-content .about{
+    background-color: #606060;
+}
+.main-content .home img{
+    width: 600px;
+}
+@media (max-width: 600px){
+    .main-content .home img{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 390px){
+    .main-content .home{
+        height: fit-content;
+    }
+}
